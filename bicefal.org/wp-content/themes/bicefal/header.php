@@ -66,4 +66,29 @@
 
 	</header><!-- #masthead -->
 
+	<div class="cut-lines">
+		<div class="cut-line"></div>
+		<div class="cut-line"></div>
+		<div class="cut-line"></div>
+		<div class="cut-line"></div>
+		<div class="cut-line"></div>
+		<div class="cut-line"></div>
+		<div class="cut-line"></div>
+		<div class="cut-line"></div>
+		<div class="cut-line"></div>
+		<div class="cut-line"></div>
+		<div class="cut-line"></div>
+		<div class="cut-line"></div>
+		<div class="cut-line"></div>
+		<div class="cut-line"></div>
+		<div class="cut-line"></div>
+		<div class="cut-line"></div>
+		<div class="cut-line"></div>
+		<div class="cut-line"></div>
+		<div class="cut-line"></div>
+		<div class="cut-line"></div>
+		<div class="cut-line"></div>
+		<div class="cut-line"></div>
+	</div>
+
 	<div id="content" class="site-content">
