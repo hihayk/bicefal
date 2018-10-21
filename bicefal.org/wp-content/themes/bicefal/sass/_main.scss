@@ -23,20 +23,34 @@ svg {
 	max-width: 100%;
 }
 
+.logo-svg {
+	path, polygon {
+		fill: $gray-1;
+	}
+}
+
+.post-thumbnail {
+  background-image: url(images/bg.gif);
+}
+
 .post-thumbnail-img {
 	mix-blend-mode: screen;
     filter: grayscale(1) contrast(1.2);
+    display: block;
 }
 
 p {
-	color: #7F7F7F;
+	color: $gray-1;
 	letter-spacing: .07em;
 }
 
 .sectra {
 	font-family: 'GTSectraDisplay-SuperItalic';
-	font-weight: 900;
-	font-style: italic;
+}
+
+.trillium {
+	font-family: 'Trillium-left';
+	letter-spacing: -0.07em;
 }
 
 .site {
@@ -65,7 +79,7 @@ p {
 
 	svg {
 		body.home & {
-			width: 100%;	
+			width: 100%;
 			height: auto;
 			opacity: .15;
 		}
@@ -89,10 +103,10 @@ p {
 
 .lineup-list-item-link {
 	font-size: 36px;
-	line-height: 1.2;
+	line-height: 1;
 	display: block;
-	
-	@extend .sectra;
+
+	@extend .trillium;
 
 	@media screen and ( max-width: 1040px ) {
 		font-size: 24px;
@@ -208,7 +222,7 @@ p {
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  border: 1px solid #494b49;
+  border: 1px solid transparentize($gray-1, .8);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -257,8 +271,9 @@ p {
 }
 
 .entry-title {
-	@extend .sectra;
+	@extend .trillium;
 
+	font-weight: 400;
 	font-size: 72px;
 	line-height: 1.1;
 
@@ -302,7 +317,7 @@ p {
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
-	background-color: #4B4C4B;
+	background-color: $gray-2;
 	color: $gray-1;
 	text-transform: uppercase;
 	letter-spacing: .1em;
@@ -324,7 +339,7 @@ p {
 #primary-menu {
 	.menu-item {
 		margin-right: 20px;
-		opacity: .4;
+		opacity: .6;
 
 		a {
 			padding: 10px 0;
@@ -383,7 +398,7 @@ p {
 }
 
 .program-artist {
-	@extend .sectra;
+	@extend .trillium;
 	font-size: 22px;
     line-height: 1;
 }

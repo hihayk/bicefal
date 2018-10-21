@@ -33,3 +33,11 @@
 	font-weight: 900;
 	font-style: italic;
 }
+
+@font-face {
+    font-family: 'Trillium-left';
+    src: url('fonts/Trillium-Left.woff2') format('woff2'),
+        url('fonts/Trillium-Left.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
