@@ -19,14 +19,14 @@
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'bicefal' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav>
-		
+
 		<div class="colab-logos">
 			<img class="colab-logo" src="<?php echo get_template_directory_uri(); ?>/images/bicefal.svg"/>
-			<img class="colab-logo" src="<?php echo get_template_directory_uri(); ?>/images/tiu.svg"/>
+			<!--<img class="colab-logo" src="<?php echo get_template_directory_uri(); ?>/images/tiu.svg"/>-->
 			<img class="colab-logo" src="<?php echo get_template_directory_uri(); ?>/images/bestiarie.svg"/>
 			<img class="colab-logo" src="<?php echo get_template_directory_uri(); ?>/images/hedonicreversal.svg"/>
-			<img class="colab-logo" src="<?php echo get_template_directory_uri(); ?>/images/dissociated.svg"/>
-			<img class="colab-logo" src="<?php echo get_template_directory_uri(); ?>/images/microfusa.svg"/>
+			<!--<img class="colab-logo" src="<?php echo get_template_directory_uri(); ?>/images/dissociated.svg"/>
+			<img class="colab-logo" src="<?php echo get_template_directory_uri(); ?>/images/microfusa.svg"/>-->
 		</div>
 
 	</footer><!-- #colophon -->
