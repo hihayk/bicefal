@@ -53,15 +53,15 @@
 		</div>
 		<div class="ticket-button-section">
 			<a href="http://bicefal.org/?page_id=105" class="program-btn">Program</a>
-			<a href="https://entradium.com/entradas/bicefal-barcelona" class="ticket-btn" target="_blank">
+			<a href="https://entradium.com/entradas/bicefal-2018" class="ticket-btn" target="_blank">
 				<span class="ticket-btn-pre">Get</span>
 				<span class="ticket-btn-main">tickets</span>
 			</a>
 		</div>
 
 		<div class="date-info-section">
-			<div class="date-info date-info-main">8·9·10 / DECEMBER / 2016</div>
-			<div class="date-info">BARCELONA — FREEDONIA — SALA UPLOAD</div>
+			<div class="date-info date-info-main">8 / DECEMBER / 2018</div>
+			<div class="date-info">BARCELONA — LAUT</div>
 		</div>
 
 	</header><!-- #masthead -->
